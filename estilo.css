@@ -114,3 +114,13 @@ a{
 #email{
     color: black ;
 }
+
+h1{
+    animation-name: mudacor;
+    animation-duration: 5s;
+}
+
+@keyframes mudacor {
+    from {color: red;}
+    to {color: yellow;}
+}
